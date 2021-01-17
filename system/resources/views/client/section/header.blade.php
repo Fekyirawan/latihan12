@@ -8,7 +8,7 @@
                             <div class="col-lg-3 col-md-4">
                                 <div class="header-top-left">
                                     <ul class="phone-wrap">
-                                        <li><span>Telephone Enquiry:</span><a href="#">(+123) 123 321 345</a></li>
+                                        <li><span>Telephone:</span><a href="#">+62895704413024</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@
                                                 <ul class="ht-setting-list">
                                                     <li><a href="login-register.html">My Account</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="login-register.html">Sign In</a></li>
+                                                    <li><a href="{{url('login')}}">Sign In</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -43,12 +43,12 @@
                                         <!-- Currency Area End Here -->
                                         <!-- Begin Language Area -->
                                         <li>
-                                            <span class="language-selector-wrapper">Language :</span>
-                                            <div class="ht-language-trigger"><span>English</span></div>
+                                            <span class="language-selector-wrapper">Bahaas :</span>
+                                            <div class="ht-language-trigger"><span>Indonesia</span></div>
                                             <div class="language ht-language">
                                                 <ul class="ht-setting-list">
-                                                    <li class="active"><a href="#"><img src="{{url('public')}}/limupa/images/menu/flag-icon/1.jpg" alt="">English</a></li>
-                                                    <li><a href="#"><img src="{{url('public')}}/limupa/images/menu/flag-icon/2.jpg" alt="">Français</a></li>
+                                                    <li class="active"><a href="#"><img src="{{url('public')}}/limupa/images/menu/flag-icon/1.jpg" alt="">Indonesia</a></li>
+                                                    <li><a href="#"><img src="{{url('public')}}/limupa/images/menu/flag-icon/2.jpg" alt="">English</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -69,7 +69,7 @@
                             <div class="col-lg-3">
                                 <div class="logo pb-sm-30 pb-xs-30">
                                     <a href="index.html">
-                                        <img src="{{url('public')}}/limupa/images/menu/logo/1.jpg" alt="">
+                                        <img src="{{url('public')}}/limupa/images/menu/logo/3.png" width="250px;" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                         <li class="hm-minicart">
                                             <div class="hm-minicart-trigger">
                                                 <span class="item-icon"></span>
-                                                <span class="item-text">£80.00
+                                                <span class="item-text">Rp.1.000.000
                                                     <span class="cart-item-count">2</span>
                                                 </span>
                                             </div>
@@ -231,13 +231,8 @@
                                 <div class="hb-menu">
                                     <nav>
                                         <ul>
-                                            <li class="dropdown-holder"><a href="index.html">Home</a>
-                                                <ul class="hb-dropdown">
-                                                    <li class="active"><a href="index.html">Home One</a></li>
-                                                    <li><a href="index-2.html">Home Two</a></li>
-                                                    <li><a href="index-3.html">Home Three</a></li>
-                                                    <li><a href="index-4.html">Home Four</a></li>
-                                                </ul>
+                                            <li class="dropdown-holder">
+                                                <a href="{{url('index')}}">Home</a>
                                             </li>
                                             <li class="megamenu-holder"><a href="shop-left-sidebar.html">Shop</a>
                                                 <ul class="megamenu hb-megamenu">

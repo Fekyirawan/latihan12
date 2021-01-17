@@ -4,14 +4,28 @@ namespace App\Http\Controllers;
 use App\Models\Produk;
 use App\Models\User;
 use App\Models\ClientProduk;
+use App\Models\Kabupaten;
+use App\Models\Provinsi;
+use App\Models\Kecamatan;
+use App\Models\Desa;
+
 
 class ClientProdukController extends Controller{
+
+	function beli(){
+		$data['list_provinsi'] = Provinsi::all();
+		$data['list_kabupaten'] = Kabupaten::all();
+		$data['list_kecamatan'] = Kecamatan::all();
+		$data['list_desa'] = Desa::all();
+		return view('client/beli', $data);
+	}
+
 	
 
 	function index(){
+		
 		$data['list_produk'] = Produk::Paginate(4);
 		return view('client/index', $data);
-
 
 	}
 
@@ -47,7 +61,7 @@ class ClientProdukController extends Controller{
 
 	function edit(ClientProduk $produk)
 	{
-		$data['keranjang'] = $produk;
+		$data['produk'] = $produk;
 		return view('client/edit', $data);
 	}
 
@@ -110,6 +124,10 @@ class ClientProdukController extends Controller{
 
 		
 		dd($list_bike, $collection, $list_produk);
+	}
+
+	function base(){
+		return view('client.base');
 	}
 
 }

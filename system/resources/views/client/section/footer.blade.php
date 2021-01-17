@@ -238,7 +238,7 @@
                                     <div class="product-details-left">
                                         <div class="product-details-images slider-navigation-1">
                                             <div class="lg-image">
-                                                <img src="{{url('public')}}/limupa/{{url('public')}}/limupa//product/large-size/1.jpg" alt="product image">
+                                                <img src="{{url('public')}}/limupa/images/product/large-size/1.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
                                                 <img src="{{url('public')}}/limupa/images/product/large-size/2.jpg" alt="product image">

@@ -38,8 +38,9 @@
 
 
 
-
+<script src="{{url('public')}}/plugins/jqvmap/jquery.vmap.min.js"></script>
 <script src="{{url('public')}}/plugins/jquery/jquery.min.js"></script>
+
 <script src="{{url('public')}}/plugins/jquery-ui/jquery-ui.min.js"></script>
 <script>
   $.widget.bridge('uibutton', $.ui.button)
@@ -47,7 +48,6 @@
 <script src="{{url('public')}}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="{{url('public')}}/plugins/chart.js/Chart.min.js"></script>
 <script src="{{url('public')}}/plugins/sparklines/sparkline.js"></script>
-<script src="{{url('public')}}/plugins/jqvmap/jquery.vmap.min.js"></script>
 <script src="{{url('public')}}/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
 <script src="{{url('public')}}/plugins/jquery-knob/jquery.knob.min.js"></script>
 <script src="{{url('public')}}/plugins/moment/moment.min.js"></script>

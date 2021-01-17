@@ -43,7 +43,14 @@ Route::resource('user', UserController::class);
 });
 
 Route::get('test-collection', [ProdukController::class, 'testCollection']);
+Route::get('test-ajax', [HomeController::class, 'testAjax']);
+
 
 // Halaman Client
 
 Route::get('index', [ClientProdukController::class, 'index']);
+Route::get('base', [ClientProdukController::class, 'base']);
+Route::get('beli', [ClientProdukController::class, 'beli']);
+
+//Route::get('beli/{produk}', [ClientProdukController::class, 'create']);
+

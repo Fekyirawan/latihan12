@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Produk;
+use App\Models\Provinsi;
 
 class ProdukController extends Controller{
 
@@ -121,6 +122,8 @@ class ProdukController extends Controller{
 		
 		dd($list_bike, $collection, $list_produk);
 	}
+
+	
 
 }
 
